@@ -5,6 +5,8 @@ The repository collects numerical experiments codes for SCMS637001数值优化(g
 ## Install
 
 ``` shell
+git clone https://github.com/jieli-matrix/NumericalOptimization.git
+pip install virtualenv
 # python version newer than 3.8 would be better
 virtualenv venv
 source venv/bin/activate
@@ -22,7 +24,7 @@ and `armijo_line_search` in general cases.
 ### Usage
 
 ``` python
->>>from optalgs.line_search import exact_line_search, constant_step_search, armijo_line_search
+>>> from optalgs.line_search import exact_line_search, constant_step_search, armijo_line_search
 >>> import numpy as np
 >>> x_0 = np.array([2,1])
 >>> alpha = 0.1
