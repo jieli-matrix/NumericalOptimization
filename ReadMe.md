@@ -1,5 +1,6 @@
 # Numerical Optimization
 
+[![Build Status](https://github.com/jieli-matrix/NumericalOptimization/actions/workflows/python-app.yml/badge.svg)](https://github.com/jieli-matrix/NumericalOptimization/actions)
 The repository collects numerical experiments codes for SCMS637001数值优化(graduate course) in Fudan University.
 
 ## Install
